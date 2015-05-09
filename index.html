@@ -1,7 +1,247 @@
 <html>
-<body>
-<h2>
-Hello World!
-</h2>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/oswald_font.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="fade-background" data-spy="scroll" data-target="#contents_navbar">
+	<div class="side-nav">
+		<nav id="contents_navbar">
+			<ul class="nav  nav-tabs nav-stacked side-nav-border">
+				<li class="side-nav-main">
+					<h1>AKSHAY VISWANATHAN</h1>
+				</li>
+				<li class="side-nav-subtext">
+					<a href="#experience"><h4>EXPERIENCE</h4></a>
+				</li>
+				<li class="side-nav-subtext">
+					<a href="#projects"><h4>PROJECTS</h4></a>
+				</li>
+				<li class="side-nav-subtext">
+					<a href="#education"><h4>EDUCATION</h4></a>
+				</li>
+				<li class="side-nav-subtext">
+					<a href="#skills"><h4>SKILLS</h4></a>
+				</li>
+				<li class="side-nav-subtext">
+					<a href="#contact"><h4>CONTACT</h4></a>
+				</li>
+				<li class="side-nav-subtext">
+					<a href="static/Resume.pdf" target="_blank"><h4>RESUME</h4></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="main-content">
+		<div class="main-content-photo" id="akshay">
+		</div>
+		<div class="main-content-text">
+			<h2>SOFTWARE ENGINEER.</h2>
+			<h2>TRAVELLER.</h2>
+			<h2>SCI-FI JUNKIE.</h2>
+		</div>
+			<div class="div-clear"></div>
+		<div class="main-content-exp" id="experience">
+			<div class="summary">
+				<h1>EXPERIENCE</h1>
+			</div>
+			<div class="company-logo">
+				<img  class="logo-image gavagai"src="img/gavagai_logo.jpg">
+			</div>
+			<div class="company-logo">
+				<img class="logo-image ibm" src="img/ibm_logo.png">
+			</div>
+			<div class="div-clear"></div>
+			<div class="company-logo">
+				<div class="logo-text"> 
+					<h3>Gavagai AB</h3>
+					<h5>Stockholm, Sweden</h5>
+					<h5>Software Engineer (July 2013 - Present)</h5>
+					<h5>Intern (August 2012 - June 2013)</h5>
+				</div>
+			</div>
+			<div class="company-logo">
+				<div class="logo-text"> 
+					<h3>IBM Singapore</h3>
+					<h5>Singapore, Singapore</h5>
+					<h5>Intern (May 2012 - July 2012)</h5>
+				</div>
+			</div>
+		</div>
+		
+		<div class="main-content-projects" id="projects">
+			<div class="summary-mod-proj">
+				<h1>PROJECTS</h1>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">Parallel Support Vector Regression</h3>
+				<p>Scalable Support Vector Regression which exploits Parallel Computing and Matrix Approximation </p>
+				<p>Developed in C++ using MPI</p>
+				<p><a href="https://github.com/akshayv/psvr" target="_blank">Link</a></p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">Indoor Navigation for Visually Impaired</h3>
+				<p>Wearable devide to assist with indoor naviation for the blind</p>
+				<p>Uses ultrasonic sensors, MPU-6050, Arduino, RaspberryPi</p>
+				<p>Developed in C and Python</p>
+				<p><a href="https://github.com/akshayv/INVI" target="_blank">Link</a></p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">Hout</h3>
+				<p>Cloud service to assist in event management and planning</p>
+				<p>Developed server side (using Java EE), web application and Android application</p> 
+				<p><a href="https://github.com/akshayv/HoutAndroid">Link to Android App</a></p>
+				<p><a href="https://github.com/akshayv/HoutWebApp">Link to WebApp</a></p>
+				<p><a href="https://github.com/akshayv/Hout-ServerSide">Link to Server Side code</a></p>
+			</div>
+			<div class="div-clear"></div>
+			<div class="proj-item">
+				<h3 class="proj-title">Schema Builder</h3>
+				<p>Desktop application to assist with database schema normalization based on the decomposition method</p>
+				<p>Developed using Python</p> 
+				<p><a href="https://github.com/akshayv/SchemaBuilder" target="_blank">Link</a></p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">RememberMe!</h3>
+				<p>TODO Manager developed as a windows application. Provided a CLI as well as a GUI</p>
+				<p>Developed using C#</p> 
+				<p><a href="https://github.com/akshayv/rememberme" target="_blank">Link</a></p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">Project Fork</h3>
+				<p>Application to automatically determine user specific sentences after ingesting user text</p>
+				<p>Developed in Java</p>
+				<p><a href="https://github.com/akshayv/fork" target="_blank">Link</a></p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">Microprocessor Design</h3>
+				<p>Designed and implemented a functional microprocessor which supported standard MIPS commands, piplining and exception handling</p>
+				<p>Implemented and tested on a Diligent Nexys Board</p>
+				<p>Developed in VHDL</p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">Line Tracking Autonomous Vechicle</h3>
+				<p>Created a prototype vehicle capable of autonomous movement across a track by performing line tracking </p>
+				<p>Predominantly a hardware project</p>
+				<p>Developed in C</p>
+			</div>
+			<div class="proj-item">
+				<h3 class="proj-title">HyperMarket Inventory System</h3>
+				<p>Developed a CLI based application which tracked a fictional hypermarket inventory</p>
+				<p>Implemented various ADTs such as Doubly Circular Linked List, Singly Linked List, Queues etc.<p>
+				<p>Developed in C++</p>
+			</div>
+		</div>
+		<div class="main-content-edu" id="education">
+			<div class="summary">
+				<h1>EDUCATION</h1>
+			</div>
+			<div class="school-logo">
+				<img  class="logo-image"src="img/nus_logo.jpg">
+			</div>
+			<div class="school-logo">
+				<img class="logo-image kth" src="img/kth_logo.png">
+			</div>
+			<div class="school-logo">
+				<img class="logo-image sses" src="img/sses_logo.png">
+			</div>
+			<div class="div-clear"></div>
+			<div class="school-logo">
+				<div class="logo-text"> 
+					<h3>National University of Singapore</h3>
+					<h5>2010 - 2015</h5>
+					<h5>Bachelor's Degree in Engineering</h5>
+					<h5>Major in Computer Engineering</h5>
+					<h5>Minor in Technopreneurship</h5>
+				</div>
+			</div>
+			<div class="school-logo">
+				<div class="logo-text"> 
+					<h3>KTH Royal Institute of Technology</h3>
+					<h5>2012-2013</h5>
+					<h5>Exchange Studies</h5>
+					<h5>Computer Science</h5>
+				</div>
+			</div>
+			<div class="school-logo">
+				<div class="logo-text"> 
+					<h3>Stockholm School of Entrepreneurship</h3>
+					<h5>2012-2013</h5>
+					<h5>Exchange Studies</h5>
+					<h5>Entrepreneurship</h5>
+				</div>
+			</div>
+		</div>
+		<div class="main-content-skills" id="skills">
+			<div class="summary-mod">
+				<h1>SKILLS</h1>
+			</div>
+			<div class="skill-cat">
+				<h3 class="skill-head">PROGRAMMING LANGUAGES</h3>
+				<h4>Java</h4>
+				<h4>Java EE</h4>
+				<h4>C++</h4>
+				<h4>Python</h4>
+				<h4>C#</h4>
+			</div>
+			<div class="skill-cat">
+				<h3 class="skill-head">DATABASES</h3>
+				<h4>MySQL</h4>
+				<h4>PostgreSQL</h4>
+				<h4>Apache Solr</h4>
+				<h4>Apache Cassandra</h4>
+				<h4>Redis</h4>
+			</div>
+			<div class="skill-cat">
+				<h3 class="skill-head">WEB DEV</h3>
+				<h4>HTML5</h4>
+				<h4>CSS3</h4>
+				<h4>Javascript</h4>
+				<h4>ASP</h4>
+				<h4>Google Web Toolkit</h4>
+			</div>
+			<div class="div-clear"></div>
+			<div class="skill-cat">
+				<h3 class="skill-head">TOOLS &amp; FRAMEWORKS</h3>
+				<h4>GIT</h4>
+				<h4>SVN</h4>
+				<h4>Apache Tomcat</h4>
+				<h4>JBOSS</h4>
+				<h4>MPI</h4>
+				<h4>OpenCL</h4>
+			</div>
+			<div class="skill-cat">
+				<h3 class="skill-head">OS</h3>
+				<h4>Linux</h4>
+				<h4>OSX</h4>
+			</div>
+			<div class="skill-cat">
+				<h3 class="skill-head">OTHER</h3>
+				<h4>Machine Learning</h4>
+				<h4>Parallel Computing</h4>
+				<h4>Distributed Systems</h4>
+			</div>
+		</div>
+		<!-- <div class="divider"/> -->
+		<div class="main-content-contact" id="contact">
+			<div class="summary">
+				<h1>CONTACT</h1>
+			</div>
+			<div class="contact-link">
+				<a href="https://facebook.com/akshay.viswanathan.7" target="_blank"><img class="logo-image "src="img/fb_logo.png"></a>
+			</div>
+			<div class="contact-link">
+				<a href="https://github.com/akshayv" target="_blank"><img class="logo-image " src="img/github_logo.png"></a>
+			</div>
+			<div class="contact-link">
+				<a href="http://in.linkedin.com/in/akshayviswanathan" target="_blank"><img class="logo-image " src="img/linkedin_logo.png"></a>
+			</div>
+			<div class="contact-link">
+				<a href="mailto:akshay.v@nus.edu.sg"><img class="logo-image " src="img/email_logo.png"></a>
+			</div>
+	</div>
 </body>
 </html>

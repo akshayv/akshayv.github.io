@@ -1,0 +1,196 @@
+body {
+	position: relative;
+}
+
+.fade-background {
+	background-image: url("../img/background.e74ff7a3.png");
+}
+
+.navbar-green {
+	color: #7ddf89
+}
+
+.side-nav {
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	background-color: rgb(45, 62, 79);
+	font-family: Oswald, sans-serif!important;
+	color: rgb(207, 64, 77);
+	text-align: center;
+}
+
+.side-nav-subtext {
+	padding-top: 2%;
+}
+.side-nav-main {
+	padding-top: 30%;
+	padding-bottom: 7%;
+}
+
+.main-content {
+	width: 75%;
+	left: 25%;
+	height: 100%;
+	position: absolute;
+}
+
+.side-nav-subtext a { color: white;}
+
+.side-nav-subtext a:link { color: white;}
+
+.side-nav-subtext a:visited { color: white;}
+
+.side-nav-subtext a:hover {color: rgb(207, 64, 77);text-decoration: none;cursor: pointer;}
+
+.side-nav-subtext a:active {color: rgb(207, 64, 77);text-decoration: none;cursor: pointer;}
+
+.side-nav-border {
+	border-bottom-color: rgb(45, 62, 79);
+}
+
+.div-clear {clear: both;}
+
+.main-content-photo {
+	height: 100%;
+	width: 60%;
+	background-image: url("../img/992990_10152219851142565_675928150_n.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.main-content-text {
+	height: 100%;
+	width: 40%;
+    float: left;
+	text-align: center;
+	font-family: Oswald, sans-serif!important;
+	color: white;
+	padding-top: 28%;
+}
+
+.main-content-exp {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.main-content-skills {
+	height: 100%;
+	width: 100%;
+	color: white;
+	background-image: url("../img/background.e74ff7a3.png");
+}
+.main-content-projects {
+	height: 100%;
+	width: 100%;
+	color: white;
+	background-image: url("../img/background.e74ff7a3.png");
+}
+
+.main-content-edu {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.main-content-contact {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+.summary {
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color: rgb(207, 64, 77);
+	font-family: Oswald, sans-serif!important;
+}
+
+.school-logo {
+	float: left;
+	width: 33%;
+	height: 30%;
+}
+
+.company-logo {
+	float: left;
+	width: 50%;
+	height: 30%;
+}
+.logo-image {
+	width: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kth {
+	position: relative;
+	top: 10%; 
+}
+.sses {
+	position: relative;
+	top: 30%; 
+	width: 65%
+}
+
+.ibm {
+	position: relative;
+	top: 10%; 
+	width: 65%
+}
+.logo-text {
+	text-align: center;
+	font-family: Oswald, sans-serif!important;
+	color: black;
+}
+
+.divider {
+	padding-top: 1%;
+	padding-bottom: 1%;
+  	background-color: rgb(207, 64, 77);
+  	color: white;
+  }
+
+ .contact-link {
+	float: left;
+	width: 25%;
+	/*height: 100%;*/
+  }
+
+.summary-mod {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: rgb(207, 64, 77);
+	font-family: Oswald, sans-serif!important;
+} 
+.summary-mod-proj {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: rgb(207, 64, 77);
+	font-family: Oswald, sans-serif!important;
+} 
+
+.skill-cat {
+	float: left;
+	height: 30%;
+	width: 33%;
+	font-family: Oswald, sans-serif!important;
+	text-align: center;
+}
+.skill-head {
+	color: #01A9DB;
+}
+
+.proj-item {
+	float: left;
+	height: 30%;
+	width: 33%;
+	font-family: Oswald, sans-serif!important;
+	text-align: center;
+}
+.proj-title {
+	color: #01A9DB;
+}
