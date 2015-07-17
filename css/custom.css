@@ -130,9 +130,10 @@ body {
 }
 
 .company-block {
-	width: 50%;
+	width: 33%;
 	min-height: 200px;
 }
+
 .logo-image-div {
 }
 
@@ -151,6 +152,17 @@ body {
 	height: 20%;
 }
 
+.visa {
+	height: 20%;
+	width: 100%;
+}
+
+.ibm {
+	height: 20%;
+	width: 65%;
+}
+
+
 .nus {
 	height: 25%;
 }
@@ -160,13 +172,6 @@ body {
 }
 .sses {
 	width: 65%;	
-}
-
-.ibm {
-	position: relative;
-	top: 10%; 
-	height: 20%;
-	width: 65%;
 }
 
 .logo-text {
