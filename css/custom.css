@@ -2,6 +2,10 @@ body {
 	position: relative;
 }
 
+/*
+Begin media-query properties
+*/
+
 @media (max-width: 840px)  {
 	.side-nav {
 		display: none;
@@ -10,6 +14,11 @@ body {
 
 	.responsive-photo {
 		background-image: url("../img/background_880.png");
+	}
+
+	.responsive-position {
+		display: table;
+		 margin-right: auto; margin-left: auto;
 	}
 }
 
@@ -34,17 +43,25 @@ body {
 		background-image: url("../img/992990_10152219851142565_675928150_n.jpg");
 	}
 
+	.responsive-position {
+		float: left;
+	}
+
 
 }
+
+/* End media query properties */
+
 
 .fade-background {
 	background-image: url("../img/background.e74ff7a3_2.png");
 }
 
+/* Begin navbar properties */
+
 .navbar-green {
 	color: #7ddf89
 }
-
 
 .side-nav-subtext {
 	padding-top: 2%;
@@ -68,7 +85,41 @@ body {
 	border-bottom-color: rgb(45, 62, 79);
 }
 
-.div-clear {clear: both;}
+/* End nav bar properties */
+
+
+/* Begin common properties */
+
+.clear {
+    clear:both;
+    line-height:0;
+}
+
+.summary {
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color: rgb(207, 64, 77);
+	font-family: Oswald, sans-serif!important;
+}
+
+.logo-image {
+	width: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo-text {
+	padding-top: 10%;
+	text-align: center;
+	font-family: Oswald, sans-serif!important;
+	color: black;
+}
+
+/* End common properties */
+
+/* Begin photos properties */
 
 .main-content-photo {
 	height: 100vh;
@@ -87,75 +138,21 @@ body {
 	padding-top: 28%;
 }
 
+/* End photos properties */
+
+/* Begin experience properties */
+
 .main-content-exp {
 	min-height: 100vh;
 	width: 100%;
 	background-color: white;
 }
 
-.main-content-skills {
-	min-height: 100vh;
-	width: 100%;
-	color: white;
-	background-image: url("../img/background.e74ff7a3_2.png");
-	display: inline-block;
-}
-.main-content-projects {
-	min-height: 100vh;
-	width: 100%;
-	color: white;
-	background-image: url("../img/background.e74ff7a3_2.png");
-	display: inline-block;
-}
-
-.main-content-edu {
-	min-height: 100vh;
-	width: 100%;
-	background-color: white;
-}
-
-.main-content-contact {
-	min-height: 100vh;
-	width: 100%;
-	background-color: white;
-}
-.summary {
-	text-align: center;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	color: rgb(207, 64, 77);
-	font-family: Oswald, sans-serif!important;
-}
-
-.school-logo {
-	float: left;
-	width: 33%;
-	min-width: 200px;
-}
-
-.info-block {
-	float: left;
-	min-width: 200px;
-	display: inline-block;
-}
 
 .company-block {
 	width: 33%;
 	min-height: 200px;
-}
-
-.logo-image-div {
-}
-
-.logo-image-div-sses {
-	padding-top: 10%
-}
-
-.logo-image {
-	width: 45%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	min-width: 200px;
 }
 
 .gavagai {
@@ -173,6 +170,83 @@ body {
 }
 
 
+/* End experience properties */
+
+/* Begin skills properties */
+
+.main-content-skills {
+	min-height: 100vh;
+	width: 100%;
+	color: white;
+	background-image: url("../img/background.e74ff7a3_2.png");
+	display: inline-block;
+}
+
+.skill-cat {
+	width: 33%;
+	font-family: Oswald, sans-serif!important;
+	text-align: center;
+	min-width: 200px;
+}
+
+.skill-head {
+	color: #01A9DB;
+}
+
+.summary-mod-skills {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: rgb(207, 64, 77);
+	font-family: Oswald, sans-serif!important;
+} 
+
+/* End skills properties */
+
+/* Begin projects properties */
+
+.main-content-projects {
+	min-height: 100vh;
+	width: 100%;
+	color: white;
+	background-image: url("../img/background.e74ff7a3_2.png");
+	display: inline-block;
+}
+
+.proj-item {
+	width: 33%;
+	font-family: Oswald, sans-serif!important;
+	text-align: center;
+	min-width: 200px;
+}
+
+.proj-title {
+	color: #01A9DB;
+}
+
+.summary-mod-proj {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: rgb(207, 64, 77);
+	font-family: Oswald, sans-serif!important;
+} 
+
+/* End projects properties */
+
+/* Begin education properties */
+
+.main-content-edu {
+	min-height: 100vh;
+	width: 100%;
+	background-color: white;
+}
+
+.school-logo {
+	width: 33%;
+	min-width: 200px;
+}
+
 .nus {
 	height: 25%;
 }
@@ -184,73 +258,31 @@ body {
 	width: 65%;	
 }
 
-.logo-text {
-	padding-top: 10%;
-	text-align: center;
-	font-family: Oswald, sans-serif!important;
-	color: black;
-}
-
 .logo-text-nus {
 	padding-top: 0%;
 }
+
 .logo-text-sses {
 	padding-top: 25%;
 }
 
-.divider {
-	padding-top: 1%;
-	padding-bottom: 1%;
-  	background-color: rgb(207, 64, 77);
-  	color: white;
-  }
+.logo-image-div-sses {
+	padding-top: 10%
+}
+
+/* End education properties */
+
+/* Begin contact properties */
+
+.main-content-contact {
+	min-height: 100vh;
+	background-color: white;
+}
 
  .contact-link {
-	float: left;
 	width: 25%;
-	/*height: 100%;*/
-	display: inline;
 	min-width: 200px;
   }
 
-.summary-mod {
-	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	color: rgb(207, 64, 77);
-	font-family: Oswald, sans-serif!important;
-} 
-.summary-mod-proj {
-	text-align: center;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	color: rgb(207, 64, 77);
-	font-family: Oswald, sans-serif!important;
-} 
+/* End contact properties */
 
-.skill-cat {
-	float: left;
-	width: 33%;
-	font-family: Oswald, sans-serif!important;
-	text-align: center;
-	min-width: 200px;
-}
-.skill-head {
-	color: #01A9DB;
-}
-
-.proj-item {
-	float: left;
-	width: 33%;
-	font-family: Oswald, sans-serif!important;
-	text-align: center;
-	min-width: 200px;
-}
-.proj-title {
-	color: #01A9DB;
-}
-
-.clear {
-    clear:both;
-    line-height:0;
-}
