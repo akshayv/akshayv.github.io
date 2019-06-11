@@ -40,7 +40,7 @@ Begin media-query properties
 	}
 
 	.responsive-photo {
-		background-image: url("../img/992990_10152219851142565_675928150_n.jpg");
+		background-image: url("../img/DSC_3234-min.JPG");
 	}
 
 	.responsive-position {
@@ -214,10 +214,12 @@ Begin media-query properties
 }
 
 .proj-item {
-	width: 33%;
+	width: 50%;
 	font-family: Oswald, sans-serif!important;
 	text-align: center;
 	min-width: 200px;
+	padding: 0 40px;
+    margin-top: 150px;
 }
 
 .proj-title {
